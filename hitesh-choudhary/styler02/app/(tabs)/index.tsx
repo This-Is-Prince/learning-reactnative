@@ -1,4 +1,5 @@
 import ElevatedCards from '@/components/ElevatedCards';
+import FancyCard from '@/components/FancyCard';
 import FlatCards from '@/components/FlatCards';
 import { ScrollView, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -9,6 +10,7 @@ export default function HomeScreen() {
       <ScrollView style={styles.container}>
         <FlatCards />
         <ElevatedCards />
+        <FancyCard />
       </ScrollView>
     </SafeAreaView>
   );
