@@ -30,30 +30,33 @@ const styles = StyleSheet.create({
         color: 'white',
     },
     card: {
-        padding: 8,
+        margin: 8,
+        backgroundColor: '#035899',
+        borderRadius: 8,
     },
     cardElevated: {},
     cardImage: {
         height: 180,
-        borderRadius: 8,
+        borderTopRightRadius: 8,
+        borderTopLeftRadius: 8,
     },
     cardBody: {
         display: 'flex',
         gap: 8,
-        marginTop: 8,
+        padding: 8,
     },
     cardTitle: {
         fontSize: 20,
         fontWeight: 'semibold',
-        color: 'white',
+        color: 'white'
     },
     cardLabel: {
         fontSize: 16,
-        color: 'pink',
+        color: '#6df7a2',
         fontStyle: 'italic',
     },
     cardDescription: {
-        color: 'gray',
+        color: 'lightgray',
         fontSize: 14,
     },
 })

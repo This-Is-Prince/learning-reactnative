@@ -1,3 +1,4 @@
+import ActionCard from '@/components/ActionCard';
 import ElevatedCards from '@/components/ElevatedCards';
 import FancyCard from '@/components/FancyCard';
 import FlatCards from '@/components/FlatCards';
@@ -11,6 +12,7 @@ export default function HomeScreen() {
         <FlatCards />
         <ElevatedCards />
         <FancyCard />
+        <ActionCard />
       </ScrollView>
     </SafeAreaView>
   );
