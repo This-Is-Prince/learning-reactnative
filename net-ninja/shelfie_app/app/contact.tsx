@@ -4,10 +4,10 @@ import { StyleSheet } from 'react-native'
 import ThemedView from '../components/ThemedView'
 import ThemedText from '../components/ThemedText'
 
-const About = () => {
+const Contact = () => {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText style={styles.title} title={true}>About Page</ThemedText>
+      <ThemedText style={styles.title} title={true}>Contact Page</ThemedText>
 
       <Link href="/" style={styles.link}>
         <ThemedText>Home Page</ThemedText>
@@ -16,7 +16,7 @@ const About = () => {
   )
 }
 
-export default About
+export default Contact
 
 const styles = StyleSheet.create({
   container: {
