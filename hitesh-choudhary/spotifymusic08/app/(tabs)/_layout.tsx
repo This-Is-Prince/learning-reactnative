@@ -8,6 +8,7 @@ export default function TabsLayout() {
       screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="index" />
+      <Stack.Screen name="MusicPlayer" />
     </Stack>
   )
 }

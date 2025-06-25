@@ -5,6 +5,10 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { playbackService } from '@/musicPlayerServices'
+import TrackPlayer from "react-native-track-player";
+
+TrackPlayer.registerPlaybackService(() => playbackService)
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
